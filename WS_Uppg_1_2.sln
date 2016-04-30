@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_Uppg_1_2", "WS_Uppg_1_2\WS_Uppg_1_2.csproj", "{8ECB2E9B-A17A-429A-85DD-32AE69B9B9D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF_Uppg_1", "WF_Uppg_1\WF_Uppg_1.csproj", "{5F13F64C-FAB3-4530-90A1-58497B760BA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8ECB2E9B-A17A-429A-85DD-32AE69B9B9D5} = {8ECB2E9B-A17A-429A-85DD-32AE69B9B9D5}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{8ECB2E9B-A17A-429A-85DD-32AE69B9B9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ECB2E9B-A17A-429A-85DD-32AE69B9B9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ECB2E9B-A17A-429A-85DD-32AE69B9B9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F13F64C-FAB3-4530-90A1-58497B760BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F13F64C-FAB3-4530-90A1-58497B760BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F13F64C-FAB3-4530-90A1-58497B760BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F13F64C-FAB3-4530-90A1-58497B760BA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
